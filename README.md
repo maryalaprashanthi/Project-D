@@ -5,8 +5,11 @@ A self-contained static website preview. The `assets` folder must stay beside `i
 ## Run the site
 
 - Open this folder in Visual Studio Code.
-- To render the site, open `index.html` in a browser. The page and media work without installing packages.
-- In VS Code, you can also use the Live Preview extension and open `index.html`.
+- In the VS Code terminal, run `npm run dev`.
+- Open `http://localhost:5173` in your browser. The local server serves the images and videos and supports video seeking.
+- Stop the server with `Ctrl+C` in the terminal.
+
+No `npm install` is needed; the preview server uses Node.js built-ins only.
 
 ## Publish to GitHub from VS Code
 

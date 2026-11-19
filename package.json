@@ -1,0 +1,9 @@
+{
+  "name": "dj-suman-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DJ Suman event website preview",
+  "scripts": {
+    "dev": "node server.js"
+  }
+}
